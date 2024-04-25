@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ev8"
+    tools:context=".userhome">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="USER HOME"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginStart="24dp"
+
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+<!--        <Button-->
+<!--            android:id="@+id/btnbank"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:background="@drawable/orange_btn"-->
+<!--            android:text="Faculty"-->
+
+<!--            />-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnloan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"
+            android:background="@drawable/orange_btn"
+            android:text="charging center" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnloanreq"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/orange_btn"
+
+            android:text="bookings" />
+<!--        <Button-->
+<!--            android:id="@+id/feedback"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:background="@drawable/orange_btn"-->
+<!--            android:text="feedback" />-->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/faq"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:background="@drawable/orange_btn"
+            android:textColor="@color/white"
+            android:text="FAQ" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/complaint"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:background="@drawable/orange_btn"
+            android:textColor="@color/white"
+            android:text="Complaint" />`
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:background="@drawable/orange_btn"
+            android:textColor="@color/white"
+            android:text="logout" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
